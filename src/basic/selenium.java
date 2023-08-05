@@ -13,8 +13,9 @@ public class selenium
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com");
         driver.manage().window().maximize();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         driver.close();
+        
         
 
     }
